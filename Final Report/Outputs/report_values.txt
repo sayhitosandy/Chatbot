@@ -1,0 +1,108 @@
+at 100 epochs :
+batch_size=64
+latent_dimensions=2
+
+
+with 1000 samples with 800-200 split:-
+
+loss: 3.2673 - val_loss: 3.3905
+('Input sentence:', ' not the hacking and gagging and spitting part. please.')
+('Decoded sentence:', ' <UNK> <UNK> <UNK> <UNK> <UNK> <UNK>')
+-
+('Input sentence:', ' you re asking me out. that s so cute. what s your name again?')
+('Decoded sentence:', ' <UNK> <UNK> <UNK> <UNK> <UNK> <UNK>')
+-
+('Input sentence:', ' gosh if only we could find kat a boyfriend...')
+('Decoded sentence:', ' <UNK> <UNK> <UNK> <UNK> <UNK> <UNK>')
+-
+('Input sentence:', ' c esc ma tete. this is my head')
+('Decoded sentence:', ' <UNK> <UNK> <UNK> <UNK> <UNK> <UNK>')
+-
+('Input sentence:', ' that s because it s such a nice one.')
+('Decoded sentence:', ' <UNK> <UNK> <UNK> <UNK> <UNK> <UNK>')
+-
+('Input sentence:', ' how is our little find the wench a date plan progressing?')
+('Decoded sentence:', ' <UNK> <UNK> <UNK> <UNK> <UNK> <UNK>')
+-
+('Input sentence:', ' you have my word. as a gentleman')
+('Decoded sentence:', ' <UNK> <UNK> <UNK> <UNK> <UNK> <UNK>')
+-
+('Input sentence:', ' how do you get your hair to look like that?')
+('Decoded sentence:', ' <UNK> <UNK> <UNK> <UNK> <UNK> <UNK>')
+-
+('Input sentence:', ' sure have.')
+('Decoded sentence:', ' <UNK> <UNK> <UNK> <UNK> <UNK> <UNK>')
+
+
+at 500 epochs :
+batch_size=64
+latent_dimensions=2
+Epoch 500/500
+800/800 [==============================] - 7s 9ms/step - loss: 2.0082 - val_loss: 3.1203
+
+with 1000 samples with 800-200 split:-
+
+loss: 3.2673 - val_loss: 3.3905
+
+('Input sentence:', ' not the hacking and gagging and spitting part. please.')
+('Decoded sentence:', ' you you a a a a a a a a a a a a')
+-
+('Input sentence:', ' you re asking me out. that s so cute. what s your name again?')
+('Decoded sentence:', ' <UNK> <UNK> <UNK> <UNK> <UNK> <UNK>')
+-
+('Input sentence:', ' gosh if only we could find kat a boyfriend...')
+('Decoded sentence:', ' a a a a a a a a a a a a a a a a')
+-
+('Input sentence:', ' c esc ma tete. this is my head')
+('Decoded sentence:', ' you a a a a a a a a a a a a a a')
+-
+('Input sentence:', ' that s because it s such a nice one.')
+('Decoded sentence:', ' you you a a a a a a a a a a a a')
+-
+('Input sentence:', ' how is our little find the wench a date plan progressing?')
+('Decoded sentence:', ' you a a a a a a a a a a a a a a')
+-
+('Input sentence:', ' you have my word. as a gentleman')
+('Decoded sentence:', ' you you a a a a a a a a a a a a')
+-
+('Input sentence:', ' how do you get your hair to look like that?')
+('Decoded sentence:', ' <UNK> <UNK> <UNK> <UNK> <UNK> <UNK>')
+-
+('Input sentence:', ' sure have.')
+('Decoded sentence:', ' <UNK> <UNK> <UNK> <UNK> <UNK> <UNK>')
+
+
+
+
+Epoch 1000/1000
+800/800 [==============================] - 7s 9ms/step - loss: 1.8309 - val_loss: 3.1405
+
+-
+('Input sentence:', ' not the hacking and gagging and spitting part. please.')
+('Decoded sentence:', ' you a <UNK> <UNK> <UNK> <UNK> <UNK>')
+-
+('Input sentence:', ' you re asking me out. that s so cute. what s your name again?')
+('Decoded sentence:', ' you a <UNK> <UNK> <UNK> <UNK> <UNK>')
+-
+('Input sentence:', ' gosh if only we could find kat a boyfriend...')
+('Decoded sentence:', ' re an or an <UNK> <UNK> <UNK> <UNK>')
+-
+('Input sentence:', ' c esc ma tete. this is my head')
+('Decoded sentence:', ' you a <UNK> <UNK> <UNK> <UNK> <UNK>')
+-
+('Input sentence:', ' that s because it s such a nice one.')
+('Decoded sentence:', ' you a <UNK> <UNK> <UNK> <UNK> <UNK>')
+-
+('Input sentence:', ' how is our little find the wench a date plan progressing?')
+('Decoded sentence:', ' re m re an or <UNK> <UNK> <UNK>')
+-
+('Input sentence:', ' you have my word. as a gentleman')
+('Decoded sentence:', ' you re re re an or or <UNK> <UNK>')
+-
+('Input sentence:', ' how do you get your hair to look like that?')
+('Decoded sentence:', ' you a <UNK> <UNK> <UNK> <UNK> <UNK>')
+-
+('Input sentence:', ' sure have.')
+('Decoded sentence:', ' you a <UNK> <UNK> <UNK> <UNK> <UNK>')
+
+
